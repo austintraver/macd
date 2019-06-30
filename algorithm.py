@@ -22,10 +22,14 @@ def compute(context, stats, order):
 
 def before_exit(context, stats, order):
     if context["long_position"]:
-        order(-1)
+        print("Long position before_exit()")
+        order(liquidate=True)
 
     if context["short_position"]:
+        print("Short position before_exit()")
         order(1)
 
 def analyze(result_set):
+    # for result in result_set:
+        # print(result.json())
     pass

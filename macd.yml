@@ -1,5 +1,5 @@
-algorithm: /Users/chase/Workspace/splay_tree/MACD/algorithm.py
-output: /Users/chase/Workspace/splay_tree/test_output
+algorithm: /Users/austin/splay_tree/macd/algorithm.py
+output: /Users/austin/splay_tree/macd/test_output
 equity: 25000
 context:
   long_position: false
@@ -9,4 +9,5 @@ statistics:
   - EMA12
   - EMA26
 tests:
-  - TEST GOOG,AMD AT RANDOM FROM 2019-06-21 TO 2019-06-23 DURATION 5 MONTHS ATTEMPT 5 TIMES
+  - TEST AAPL,AMD AT RANDOM FROM 2019-06-21 TO 2019-06-23 DURATION 5 MONTHS ATTEMPT 5 TIMES
+  - TEST V,TSLA AT RANDOM FROM 2019-02-21 TO 2019-05-21 DURATION 1 MONTH ATTEMPT 3 TIMES
