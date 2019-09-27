@@ -1,11 +1,12 @@
-algorithm: /Users/austin/splay_tree/macd/algorithm.py
-output: /Users/austin/splay_tree/macd/test_output
+algorithm: /Users/austin/st/macd/macd.py
+output: /Users/austin/st/macd/test_output
 equity: 25000
 context:
   long_position: false
   short_position: false
   bias: 0.0
 statistics:
+  - CANDLE
   - EMA12
   - EMA26
 tests:
